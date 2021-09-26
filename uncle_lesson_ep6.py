@@ -20,6 +20,7 @@ file_menu.add_command(label='Export CSV')
 
 
 def About():
+    print('About Menu')
     messagebox.showinfo('About', 'สวัสดี โปรแกรมนี้ทำงานดีมาก\nสนใจบริจาคได้')
 
 
@@ -182,7 +183,6 @@ for head, h_width in zip(header, header_width):
     result_table.column(head, width=h_width)
 
 # result_table.insert('', 'end', value=['วันจันทร์', 30, 40, 50, 60])
-# result_table.insert('', 'end', value=header)
 
 
 def update_table():
